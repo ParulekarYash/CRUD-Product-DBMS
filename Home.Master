@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.Master.cs" Inherits="Product_Management_System.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            
+        }
+        .auto-style2 {
+            width: 233px;
+        }
+        .auto-style3 {
+            height: 32px;
+        }
+        .auto-style4 {
+            width: 233px;
+            height: 31px;
+        }
+        .auto-style5 {
+            height: 31px;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="d1">
+           <h1> Product Management System</h1>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="d3">
+            <h3>Website Created with ADO.Net</h3>
+        </div>
+    </form>
+</body>
+</html>
